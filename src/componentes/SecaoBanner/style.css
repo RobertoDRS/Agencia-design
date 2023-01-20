@@ -1,0 +1,81 @@
+/** Dark mode e Light mode **/
+.banner-dark-mode{
+    background-color: #252525;
+}
+
+.banner-light-mode{
+    background-color: #fff;
+}
+/** ------------------------------------------------- **/
+
+.secao-banner{
+    display: flex;
+    height: 670px;
+}
+
+.banner-div-img{
+    background-image: url("../../assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-div-img, .banner-div-texto{
+    width: 50%;
+}
+
+.banner-div-texto{
+    background-color: #fafbfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #022144;
+    padding-left: 20px;
+}
+
+.banner-div-texto p{
+    letter-spacing: 5px;
+}
+
+.banner-div-texto h2{
+    font-weight: normal;
+}
+
+.banner-div-texto h2, .banner-div-texto span{
+    font-size: 55px;
+}
+
+.banner-div-texto span{
+    font-weight: bold;
+}
+
+/* Responsivo */
+
+@media only screen and (min-width:1515px){
+    .secao-banner{
+        height: 770px;
+    }
+}
+
+@media only screen and (max-width: 875px){
+    .banner-div-img{
+        background-position-x: -50px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .banner-div-img{
+        display: none;
+    }
+
+    .banner-div-texto{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .banner-div-texto h2, .banner-div-texto span{
+        font-size: 45px;
+    }
+}
+
+

@@ -1,0 +1,102 @@
+/** Dark mode **/
+.SET-dark-mode{
+    background-color: #393838;
+}
+
+.SET-h2-dark-mode{
+    color: #CCCCCC;
+}
+
+.SET-p-dark-mode{
+    color: #CCCCCC;
+}
+
+/** --------------------------------------------- **/
+
+/** Light mode **/
+.SET-light-mode{
+    background-color: #f6f8fc;
+}
+
+.SET-h2-light-mode{
+    color: #32333c;
+}
+
+.SET-p-light-mode{
+    color: #8a8fa3;
+}
+/** --------------------------------------------- **/
+
+
+.secao-experiencia-trabalho{
+    padding: 100px 20px;
+}
+
+.primeira-div-SET{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.secao-experiencia-trabalho h2{
+    font-size: 55px;
+    margin-bottom: 50px;
+    position: relative;
+    padding: 10px 0;
+}
+
+.secao-experiencia-trabalho h2::before{
+    content: "";
+    background-color:  #feb633;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 4px;
+    margin: 0 auto;
+}
+
+
+p.primeiro-paragrafo-SET{
+    width: 51%;
+    text-align: center;
+}
+
+.segunda-div-SET{
+    display: flex;
+    width: 68%;
+    margin: 0 auto;
+}
+
+/* Responsivo */
+
+@media only screen and (max-width: 1024px){
+    .segunda-div-SET{
+        width: 99%;
+    }
+
+    p.primeiro-paragrafo-SET{
+        width: 75%;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    p.primeiro-paragrafo-SET{
+        width: 99%;
+    }
+
+    .segunda-div-SET{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .secao-experiencia-trabalho h2{
+        font-size: 45px;
+        text-align: center;
+    }
+}

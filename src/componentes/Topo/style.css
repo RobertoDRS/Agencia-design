@@ -1,0 +1,55 @@
+/** Dark mode **/
+
+.topo-dark-mode{
+    background-color: #252525;
+}
+
+.btn-dark-mode{
+    border-color: #fff;
+}
+
+/** -------------------------------------------- **/
+
+/** Light mode **/
+
+.topo-light-mode{
+    background-color: white;
+}
+
+
+
+.btn-light-mode{
+    border-color: #747272 ;
+}
+
+/** -------------------------------------------- **/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    align-items: center;
+}
+
+.logo{
+    max-height: 35px;
+}
+
+button{
+    border: 2px solid #747272;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    border: 2px solid #feb633;
+    cursor:pointer;
+}
+
+button img{
+    width: 26px;
+}

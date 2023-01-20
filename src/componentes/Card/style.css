@@ -1,0 +1,64 @@
+/** Dark mode **/
+.card-dark-mode{
+    border-color: #ffffff0d;
+}
+
+.card-p-dark-mode{
+    color: #9F9F9f
+}
+
+.card-h3-dark-mode{
+    color: #fff;
+}
+
+/** -------------------------------------- **/
+
+/** Light mode **/
+.card-light-mode{
+    border-color: rgb(232, 229, 229);
+}
+
+.card-p-light-mode{
+    color:#8a8fa3;
+}
+
+.card-h3-light-mode{
+    color: #32333c;
+}
+/** -------------------------------------- **/
+
+.card{
+    padding: 60px 20px;
+    border: 1px solid rgb(232, 229, 229);
+    height: 450px;
+}
+
+.card p{
+    margin: 10px 0;
+}
+
+.card h3{
+    font-size: 30px;
+}
+
+.card:hover{
+    background-color: #feb633;
+    border: 1px solid #edecec;
+}
+
+@media only screen and (max-width: 1024px){
+    .card{
+        height: 410px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .card{
+        height: auto;  
+    }
+
+    .card:hover{
+        background-color: transparent;
+        border: 1px solid rgb(232, 229, 229);
+    }
+}
